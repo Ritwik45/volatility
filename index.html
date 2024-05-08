@@ -138,11 +138,11 @@
     }
 
     function getVolatilityLevel(atrPercentage) {
-        if (atrPercentage < 0.5) {
+        if (atrPercentage < 0.05) {
             return "Very Low";
-        } else if (atrPercentage < 0.7) {
+        } else if (atrPercentage < 0.07) {
             return "Low";
-        } else if (atrPercentage < 0.9) {
+        } else if (atrPercentage < 0.09) {
             return "Moderate";
         } else if (atrPercentage < 0.13) {
             return "High";
